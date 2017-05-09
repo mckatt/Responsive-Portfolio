@@ -237,3 +237,62 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+/*<!---Media Queries section--->*/
+
+@media screen and (max-width: 980px){
+
+body {
+  width: 100%;
+}
+.container {
+  margin-left: 40px;
+}
+nav {
+  margin-right: 80px; 
+}
+.main-section {
+ 
+
+}
+
+p {
+  clear: both;
+}
+
+}
+
+@media screen and (max-width: 768px){
+
+  .sidebar {
+    clear: both;
+  }
+
+
+ 
+
+}
+
+@media screen and (max-width: 640px){
+
+
+#logo {
+  width: 100%;
+  }
+nav {
+  float: left;
+}
+
+.sidebar {
+  float: left;
+  margin-left: 45px;
+}
+
+#connect {
+  width: 50%;
+}
+
+
+
+}
